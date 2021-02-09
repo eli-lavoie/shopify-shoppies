@@ -3,3 +3,10 @@
     margin-bottom: 1.5em;
     background-color: #242424;
 }
+
+.header-divider{
+    border-bottom: .3em solid #242424;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 1.3em;
+}

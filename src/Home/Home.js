@@ -1,20 +1,36 @@
 import React from 'react'
 import '../css/mystyles.css'
 import './Home.css'
-const Home = () => {
+const Home = props => {
+    const movieData = [{
+        "Title": "Shrek",
+        "Year": "2001",
+        "imdbID": "tt0126029",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOGZhM2FhNTItODAzNi00YjA0LWEyN2UtNjJlYWQzYzU1MDg5L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    }, {
+        "Title": "Shrek 2",
+        "Year": "2004",
+        "imdbID": "tt0298148",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMDJhMGRjN2QtNDUxYy00NGM3LThjNGQtMmZiZTRhNjM4YzUxL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    }, {
+        "Title": "Shrek the Third",
+        "Year": "2007",
+        "imdbID": "tt0413267",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTgyMjc3ODk2MV5BMl5BanBnXkFtZTcwMjY0MjEzMw@@._V1_SX300.jpg"
+    }, {
+        "Title": "Shrek Forever After",
+        "Year": "2010",
+        "imdbID": "tt0892791",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTY0OTU1NzkxMl5BMl5BanBnXkFtZTcwMzI2NDUzMw@@._V1_SX300.jpg"
+    }]
     return(
         <>
-            <div className="temp-nav-area"></div>
-            <div className="main">
-                <h1 className="title is-4 has-text-centered">Shopify Presents</h1>
-                <p className="title is-1 has-text-centered">The Shoppies</p>
-                <hr className="header-divider"/>
-                <div className="content has-text-centered">
-                    <h3>Shopify has expanded into the movie awards business, and we need your help!<br/> It's up to you to vote for your 5 favorite movies!</h3>
-                </div>
-                <div className="buttons has-addons is-centered">
-                    <button className="button is-primary is-light">Test</button>
-                </div>
+            <div className="homepage-div">
+                <p className="title is-1 has-text-centered center">The Shoppies</p>
             </div>
         </>
     )

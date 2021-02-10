@@ -29,7 +29,7 @@ body,
     100%{background-position:0% 50%}
 } 
 
-.title {
+.my-title {
     font-size: 10rem!important;
     color: #dbdbdb;
     font-family: Bitter;
@@ -41,7 +41,7 @@ body,
 
 }
 
-.subtitle {
+.my-subtitle {
     font-size: 5rem;
     color: #fffbed;
     font-family: Bitter;

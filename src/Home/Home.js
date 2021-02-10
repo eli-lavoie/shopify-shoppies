@@ -6,8 +6,8 @@ const Home = props => {
         <>
             <div className="homepage-div">
                 <div className="title-subtitle-div">
-                    <p className="title is-1 has-text-centered center">The Shoppies</p>
-                    <p className="subtitle is2 has-text-centered center">The 2021 Shopify Movie Awards</p>
+                    <p className="title is-1 has-text-centered center my-title">The Shoppies</p>
+                    <p className="subtitle is2 has-text-centered center my-subtitle">The 2021 Shopify Movie Awards</p>
                 </div>
                 <hr className="div-line"/>
                 <div className="buttons has-addons is-centered">

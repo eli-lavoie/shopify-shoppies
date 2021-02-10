@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500;700;900&family=Jomhuria&display=swap');
+
+.w60{
+    width: 60%;
+}
+
+.bg60{
+    background-color: rgba(31, 31, 31, 60%);
+}
+
+.centered{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-div{
+    margin-top: 1em;
+}
+
+.vote-title{
+    font-family: Bitter;
+    color: #dbdbdb;
+}
+
+.input-and-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-field{
+    width: 85%
+}
+
+.search-btn{
+    margin-top: 0px!important;
+
+}
+
+.w40{
+    width: 48%;
+}
+
+.results-votes-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.results{
+    margin-bottom: 0px!important;
+    margin-top: 1em;
+}
+
+.hidden{
+    display: none;
+}
+
+.results-div-hr{
+    background-color: rgba(31, 31, 31, 0%);
+    border-top: 2.8px solid rgba(31, 31, 31, 30%);
+    margin-top: 0px;
+}
+
+.title-name{
+    color: #dbdbdb;
+}
+
+.result-and-btn{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.vote-btn{
+    margin-top: 0px;
+    margin-left: 1.7em;
+}
